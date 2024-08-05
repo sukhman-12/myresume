@@ -45,7 +45,7 @@ export default function Contact() {
           onChange={handleChange}
           placeholder="Message"
         />
-        <button type="submit">Submit</button>
+        {/* <button type="submit">Submit</button> */}
       </form>
       {error && <p>{error}</p>}
     </div>
